@@ -1,0 +1,27 @@
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav li {
+    width: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    opacity: 1;
+}
