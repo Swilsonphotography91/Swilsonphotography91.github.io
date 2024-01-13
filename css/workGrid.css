@@ -1,0 +1,24 @@
+.workGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.workGrid .workGrid__item {
+    width: 45%;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .workGrid .workGrid__item {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .workGrid .workGrid__item {
+        width: 17%;
+    }
+}

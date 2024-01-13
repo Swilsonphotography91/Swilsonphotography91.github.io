@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    
+    background: #46bea8;
+    
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.footer__column {
+    width: 33%;
+}
+
+.footer__title {
+    margin-bottom: 15px;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.footer .social path {
+    fill: white;
+}
