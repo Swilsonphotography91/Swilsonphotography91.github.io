@@ -1,3 +1,9 @@
 .banner {
     margin-bottom: 40px;
+    height: 65vh;
+    
+    background-image: url("../images/swan\ shaking\ off.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
