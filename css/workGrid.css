@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 20px;
     padding: 0 20px;
+    margin-bottom: 70px;
 }
 
 .workGrid .workGrid__item {
